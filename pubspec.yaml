@@ -1,0 +1,28 @@
+name: pptsb
+description: "A new Flutter project."
+# Baris berikut mencegah paket diterbitkan secara tidak sengaja ke pub.dev menggunakan `flutter pub publish`. Ini lebih disukai untuk paket pribadi.
+publish_to: "none" # Hapus baris ini jika Anda ingin menerbitkan ke pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^0.8.4+4 # Pastikan versi yang benar
+  http: ^1.2.1
+  fl_chart: ^0.40.0
+  get: ^4.6.6
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
